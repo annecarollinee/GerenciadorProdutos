@@ -76,12 +76,13 @@
             // 
             // btn_salvar
             // 
-            this.btn_salvar.Location = new System.Drawing.Point(335, 279);
+            this.btn_salvar.Location = new System.Drawing.Point(343, 278);
             this.btn_salvar.Name = "btn_salvar";
-            this.btn_salvar.Size = new System.Drawing.Size(75, 23);
+            this.btn_salvar.Size = new System.Drawing.Size(89, 30);
             this.btn_salvar.TabIndex = 5;
             this.btn_salvar.Text = "Salvar";
             this.btn_salvar.UseVisualStyleBackColor = true;
+            this.btn_salvar.Click += new System.EventHandler(this.btn_salvar_Click);
             // 
             // lblNome
             // 
