@@ -13,8 +13,7 @@ namespace GerenciadorProdutos
         }
 
         private void cmbTipo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            // Altera o rótulo do campo específico de acordo com a seleção
+        { // Altera o rótulo do campo específico de acordo com a seleção
             if (cmbTipo.SelectedItem.ToString() == "Físico")
             {
                 lblAtributo.Text = "Peso (Kg):";
@@ -25,7 +24,7 @@ namespace GerenciadorProdutos
             }
         }
 
-        private void btnSalvar_Click(object sender, EventArgs e)
+        private void btn_salvar_Click(object sender, EventArgs e)
         {
             try
             {

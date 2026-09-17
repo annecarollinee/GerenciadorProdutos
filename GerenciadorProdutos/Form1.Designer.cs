@@ -65,6 +65,7 @@
             this.cmbTipo.Name = "cmbTipo";
             this.cmbTipo.Size = new System.Drawing.Size(170, 21);
             this.cmbTipo.TabIndex = 2;
+            this.cmbTipo.SelectionChangeCommitted += new System.EventHandler(this.cmbTipo_SelectedIndexChanged);
             // 
             // lbl_atributo
             // 
@@ -130,11 +131,11 @@
             // lblAtributo
             // 
             this.lblAtributo.AutoSize = true;
-            this.lblAtributo.Location = new System.Drawing.Point(377, 219);
+            this.lblAtributo.Location = new System.Drawing.Point(372, 169);
             this.lblAtributo.Name = "lblAtributo";
-            this.lblAtributo.Size = new System.Drawing.Size(16, 13);
+            this.lblAtributo.Size = new System.Drawing.Size(28, 13);
             this.lblAtributo.TabIndex = 11;
-            this.lblAtributo.Text = "...";
+            this.lblAtributo.Text = "Tipo";
             // 
             // Form1
             // 
